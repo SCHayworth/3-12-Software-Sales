@@ -2,7 +2,7 @@
 # Shaun Hayworth
 # CIS 2
 # 10-16-2019
-# Original source code and revision history can be found at https://github.com/SCHayworth/3-12-Softare-Sales
+# Original source code and revision history can be found at https://github.com/SCHayworth/3-12-Software-Sales
 
 # Calculates the total price of a software package after a discount based on the number of packages purchased.
 
