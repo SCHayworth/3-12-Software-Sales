@@ -20,18 +20,21 @@ Write a program that asks the user to enter the number of packages purchased. Th
     Set the retail price constant to 99.0
     Prompt user for the number of packages
     Calculate the base price before discount
-      base price = retail price * number of packages
+        base price = retail price * number of packages
     Calculate the discount multiplier
-      IF number of packages >= 10 AND <=19
-        THEN discount multiplier = 0.1
-      IF number of packages >=20 AND <= 49
-        THEN discount multiplier = 0.2
-      IF number of packages >=50 AND <=99
-        THEN discount multiplier = 0.3
-      IF number of packages >= 100
-        THEN discount multiplier = 0.4
-      ELSE discount multiplier = 0
+        IF number of packages >= 10 AND <=19
+            THEN discount multiplier = 0.1
+        IF number of packages >=20 AND <= 49
+            THEN discount multiplier = 0.2
+        IF number of packages >=50 AND <=99
+            THEN discount multiplier = 0.3
+        IF number of packages >= 100
+            THEN discount multiplier = 0.4
+        ELSE discount multiplier = 0
     Calculate the discount amount
-      discount amount = base price * discount multiplier
-
+        discount amount = base price * discount multiplier
+    Calculate the price after discount
+        price after discount = base price - discount amount
+    Print Discount Amount
+    Print Total Amount
 
